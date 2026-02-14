@@ -3,7 +3,7 @@ cask "bdy" do
   name "bdy"
   desc "A k9s-style terminal UI for browsing beads issues"
   homepage "https://github.com/poiley/beady"
-  version "1.1.4"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "bdy" do
   on_macos do
     on_intel do
       url "https://github.com/poiley/beady/releases/download/v#{version}/bdy_darwin_amd64.tar.gz"
-      sha256 "9aa6609355c5893d0e4a9c0f2c18ec1caef2db41957046de76c97d83e4545e51"
+      sha256 "73e4f58eee402e64aba6821028b28a44b131025561492f1df02b2ff465a7b43b"
     end
     on_arm do
       url "https://github.com/poiley/beady/releases/download/v#{version}/bdy_darwin_arm64.tar.gz"
-      sha256 "6acb0219206d1f59afe24d54604132de6d6f9b890f92d039cbfb269e6422d07f"
+      sha256 "bfab008ccd409cfd1a1b54300a0326c0e56bae690eafb56b44903685e13d5e3d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/poiley/beady/releases/download/v#{version}/bdy_linux_amd64.tar.gz"
-      sha256 "cec49b0248ff78b28be627fa308c04204f1218b67c8e42fc309b97fdfac0eccd"
+      sha256 "adf700a47f68e372c1cf5955685573ac1f767832c7668e43ba80af80c03a324d"
     end
     on_arm do
       url "https://github.com/poiley/beady/releases/download/v#{version}/bdy_linux_arm64.tar.gz"
-      sha256 "9427cde0649f22d7deb16f7594e74cb72f00ec5de4d8fcb14794d8fedf1d1ff9"
+      sha256 "6774fe6c273cb4ff9c04fd5148c4deb732c502d0b1db7170687718326313ca30"
     end
   end
 
